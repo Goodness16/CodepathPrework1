@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Goodness Atanda Prework</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+     Memory Light Up
+    </h1>
+    <p class="message" >
+      This game is meant to test your memory. Are you ready to light up your memory?!
+    </p>
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+        <img class="picture" src="https://cdn.glitch.global/1369dbfc-7547-47db-86db-1796cd7f36e7/do.jpeg?v=1650586074497">
+      </button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+        <img class="picture" src="https://cdn.glitch.global/1369dbfc-7547-47db-86db-1796cd7f36e7/re.jpeg?v=1650586098492">
+      </button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+        <img class="picture" src="https://cdn.glitch.global/1369dbfc-7547-47db-86db-1796cd7f36e7/mi.webp?v=1650586094293">
+      </button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+        <img class="picture" src="https://cdn.glitch.global/1369dbfc-7547-47db-86db-1796cd7f36e7/fa.jpeg?v=1650586079812">
+      </button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+        <img class="picture" src="https://cdn.glitch.global/1369dbfc-7547-47db-86db-1796cd7f36e7/so.jpeg?v=1650586099118">
+      </button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+        <img class="picture" src="https://cdn.glitch.global/1369dbfc-7547-47db-86db-1796cd7f36e7/la.png?v=1650586091596">
+      </button>
+      <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()">
+        <img class="picture" src="https://cdn.glitch.global/1369dbfc-7547-47db-86db-1796cd7f36e7/ti.jpeg?v=1650586100733">
+      </button>
+      <button id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()">
+        <img class="picture" src="https://cdn.glitch.global/1369dbfc-7547-47db-86db-1796cd7f36e7/do%20baby.jpeg?v=1650586066249">
+      </button>
+    </div>
+  </body>
+</html>
+
